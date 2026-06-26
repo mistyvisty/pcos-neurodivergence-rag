@@ -48,22 +48,6 @@ This notebook builds a **medical question-answering system** that:
 
 ---
 
-## 🚀 How to Run
-
-### 1. Open in Google Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
-
-Upload `PCOS_Neurodivergence_RAG_v2.ipynb` to Google Colab.
-
-### 2. Get a Free Groq API Key
-- Go to [console.groq.com](https://console.groq.com)
-- Create a free API key (starts with `gsk_`)
-- In Colab: click the 🔑 key icon → **Add secret** → Name: `GROQ_API_KEY` → paste key → toggle ON
-
-### 3. Download the Papers
-- Download the 5 PDFs using the DOI links in the table above
-- Rename them exactly: `pmos.pdf`, `pmos1.pdf`, `pmos2.pdf`, `pmos3.pdf`, `pmos4.pdf`
-
 ### 4. Run All Cells in Order
 ```
 Step 1  → Install dependencies
@@ -77,6 +61,7 @@ Step 8  → Query with sample questions
 Step 9  → Inspect retrieved chunks (transparency)
 Step 10 → Interactive Q&A widget
 Bonus   → Paper coverage summary
+
 ```
 
 ---
